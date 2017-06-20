@@ -17,6 +17,7 @@
 using json = nlohmann::json;
 using namespace std;
 
+
 void SetStdinEcho(bool enable = true)
 {
 #ifdef WIN32
